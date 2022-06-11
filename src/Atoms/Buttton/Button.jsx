@@ -10,6 +10,7 @@ const Button = ({
     onClick,
 }) => (
     <button
+        data-test-id='button'
         type='button'
         className={classNames('btn', {
             [`btn-${type}`]: type && !disabled,
